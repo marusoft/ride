@@ -1,10 +1,15 @@
 import React from "react";
-import { FooterWrapper } from "./styles/Footer.styled";
+import {
+  FooterWrapper,
+  AllRight,
+  TermandCondition,
+} from "./styles/Footer.styled";
 
 const Footer = () => {
   return (
     <FooterWrapper>
-      <h1>Footer</h1>
+      <AllRight>© 2020 Whichride - All rights reserved.</AllRight>
+      <TermandCondition>Privacy Policy Terms and Conditions</TermandCondition>
     </FooterWrapper>
   );
 };

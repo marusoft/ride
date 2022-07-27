@@ -1,21 +1,14 @@
 import React from "react";
-import { Container } from "../components/styles/Container";
+import Benefit from "../components/Benefit";
+import Product from "../components/Product";
+import Subscribe from "../components/Subscribe";
 
 const Homepage = () => {
   return (
     <div>
-      <Container>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-        <h1>Homepage</h1>
-      </Container>
+      <Product />
+      <Benefit />
+      <Subscribe />
     </div>
   );
 };
