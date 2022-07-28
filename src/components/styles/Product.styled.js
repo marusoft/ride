@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 export const ProductWrapper = styled.div`
   width: 100%;
+  margin-top: -3rem;
   background-color: ${({ theme }) => theme.colors.productBg};
   color: #fff;
+  @media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+    margin-top: -4.5rem;
+  }
 `;
 
 export const ProductInfo = styled.div`

@@ -39,6 +39,7 @@ export const Image = styled.img`
   flex: 1;
   width: 375px;
   margin-left: 40px;
+  z-index: -1;
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
     margin: 40px 0 30px;
   }
@@ -59,6 +60,9 @@ export const IntroLeft = styled.div`
     color: #4f4f4f;
     @media (max-width: ${({ theme }) => theme.breakpoints.sm}) {
       font-size: 20px;
+    }
+    @media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+      margin-bottom: 2.5rem;
     }
   }
 `;
